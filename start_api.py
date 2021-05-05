@@ -6,6 +6,7 @@ if it isn't detected.
 
 import subprocess
 import requests
+import uvicorn
 
 api_check_url = "http://127.0.0.1:8000/"
 
