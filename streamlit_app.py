@@ -1,5 +1,6 @@
 import streamlit as st
 from pathlib import Path
+import uvicorn
 
 import start_api
 from interface import combine_images, encoding_sentences, preprocess_text
